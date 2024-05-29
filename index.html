@@ -5,25 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/0f0a421d19.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="header-left">
-            <a href="www.google.com">Google 정보</a>
-            <a href="www.google.com">스토어</a>
-        </div>
-        <div class="header-right">
-            <a href="www.google.com">Gmail</a>
-            <a href="www.google.com">이미지</a>
-        </div>
-    </header>
     <div>
-        
+        <a href="#">Gmail</a>
+        <a href="#">images</a>
+        <i class="fas fa-bars"></i>
     </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPnxefHYLnvWuIF1nChEInB3ekM6BbxYGzHA&s" 
+        width="272px" height="92px">
+        <div>
+            <i class="fas fa-search"></i>
+            <input type="text">
+            <i class="fas fa-microphone"></i>
+        </div>
+        <div>
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </div>
+        <div>
+            Google offered in: 
+            <a href="#">한국어</a>
+            <a href="#">베트남어</a>
+            <a href="#">프랑스어</a>
+            <a href="#">중국어</a>
+        </div>
+    </div> 
+    <div>    
+        <div>
+            <a href="#">Vietnam</a>
+        </div>
+        <span>
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>   
+        </span>
+        <span>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Setting</a>
+        </span>
+    </div> 
 </body>
 </html>
 
 
 
 <!-- 웹사이트를 처음 분석할 때는 f12 누르고 박스별로 page를 나누자.
-머리, 몸통, 다리를 나누고 몸통 안에 또 박스를 나누기.  -->
+머리, 몸통, 다리를 나누고 몸통 안에 또 박스를 나누기.
+
+div 태그는 블록, span 태그는 인라인 
+따라서 div태그는 한 줄을 다 차지하고, span은 구분은 하되 한 줄을 다 차지하지 않음
+
+icon을 가지고 오는 font-awesome 부분은 개인 링크를 head에 넣어 CDN 활성화시켜줘야 작동함.-->
